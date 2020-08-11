@@ -28,7 +28,7 @@ SECRET_KEY = '-)-w*-ut14t7e%gn303kkz*+*-tw#*b3q#x!d635x20o_z=u^('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["http://vits.herokuapp.com/"]
+ALLOWED_HOSTS = ["vits.herokuapp.com"]
 
 
 # Application definition
