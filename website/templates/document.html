@@ -1,7 +1,7 @@
 
 {% load static %}
 {% static "images" as baseUrl %}
-{% load embed_video_tags %}
+
 
 <!DOCTYPE html>
 <html class="no-js">
@@ -23,21 +23,21 @@
 
 <body id="welcome1">
 <aside class="left-sidebar">
-<div class="logo">
-	<a href="#welcome">
-		<h1>DSoft</h1>
-	</a>
-</div>
+
 <nav class="left-nav">
 	<ul id="nav">
 		<li class="current"><a href="#welcome">Welcome</a></li>
-		<li><a href="#installation">Installation</a></li>
-		<li><a href="#tmpl-structure">Service</a></li>
-		<li><a href="#css-structure">Bills And Payments</a></li>
-		<li><a href="#javascript">Service Ordering</a></li>
-		<li><a href="#contact-form">Refer A Friend</a></li>
-		<li><a href="#video">Video Tutorial</a></li>
-		<li><a href="#disclaimer">Disclaimer</a></li>
+		<li><a href="#introduction">Introduction</a></li>
+		<li><a href="#feature">System Feature</a></li>
+		<li><a href="#inventory">Inventory Management</a></li>
+		<li><a href="#advanced">Advanced Management</a></li>
+		<li><a href="#asset">Asset Management</a></li>
+		<li><a href="#assetf">Asset Feature</a></li>
+		<li><a href="#cloud">Cloud-Based Solution</a></li>
+		<li><a href="#hardware">Hardware</a></li>
+		<li><a href="#installation">Purchase Order</a></li>
+		<li><a href="#tmpl-structure">GRR-Goods Received Report</a></li>
+		<li><a href="#css-structure">Counter Goods Sale</a></li>
 		<li><a href="home">Main Menu</a></li>
 	</ul>
 </nav>
@@ -47,85 +47,693 @@
 <div class="main-content">
 	<section id="welcome">
 		<div class="content-header">
-			<h1>DSoft</h1>
+			<h1>VITS - Universities Inventory System</h1>
+			<H4>Efficiently track and Manage Inventory within multiple campuses and classes with our world best Inventory System</H4>
 		</div>
 		<div class="welcome">
-			<h2 class="twenty">Welcome To Dsoft</h2>
-			<li>Firstly, a huge thanks for showing interest in DSoft products.</li>
+			<h2 class="twenty">Welcome To Inventory Management Module</h2>
+			<li>Firstly, a huge thanks for showing interest in VITS products.</li>
 			<br><li>Your support is truly appreciated!</li>
-			<li>This document covers the installation procedures conducted by DSoft.</li>
+			<li>This document covers the functions and procedures involved in Inventory Module.</li>
 			<li>This document often reveals answers to common problems and issues - </li>
 			<li>read this document thoroughly if you are experiencing any difficulties. </li>
 			<li>If you have any questions that are beyond the scope of this document,</li>
 			<li>Please feel free to contact us any time between office hours to our customer desk. </li>
-			<br><br><li>Thank you so much!</li>
+			<br><br><li>Thank you so much!</li><br><br>
 
 		</div>
-		<div class="features">
-			<h4 class="twenty">Welcome to Internet LifeStyle</h4>
-			<ul>
 
+	</section>
+	<section id="introduction">
+		<div class="features">
+			<h4 class="twenty">Welcome to Inventory Management System</h4>
+			<ul>
 			</ul>
 		</div>
+		<h2 class="title">Introduction </h2>
+		<div class="section-content">
+			<ol><h3><br>
+		    <li>Your college or university has hundreds of different types of inventory that need </li>
+			<li>to be accurately monitored and managed, including office supplies and consumables </li>
+		    <li>used by specialized labs and departments. Our robust, all-in-one Inventory System </li>
+		    <li>gives you the ability to track and report on the use of large quantities of stock </li>
+		    <li>inventory with implacable inventory management capabilities, throughout multiple </li>
+		    <li>campuses with barcode tracking technology.</li><br>
+			<li>Our powerful Inventory System helps the University/College in  tracking and managing</li>
+			<li>shared equipment moving from multiple locations— classrooms, to students and faculty.</li>
+			</h3>
+			</ol><br><br>
+
+		</div>
 	</section>
+	<section id="feature">
+		<div class="features">
+			<h4 class="twenty"></h4>
+			<ul>
+			</ul>
+		</div>
+		<h2 class="title">University and Colleges Inventory Tracking Features</h2>
+		<div class="section-content">
+			<ol><h3>
+		    <li><img src="{% static 'images/inv01.png' %}" alt="">Email & SMS Alerts on when to reorder </li>
+			<li><img src="{% static 'images/inv02.png' %}" alt="">University Inventory import module</li>
+	        <li><img src="{% static 'images/inv03.png' %}" alt="">Barcode technology</li>
+			<li><img src="{% static 'images/inv04.png' %}" alt="">Min/Max University Inventory monitoring</li>
+			<li><img src="{% static 'images/inv05.png' %}" alt="">Standard College Inventory management</li>
+			<li><img src="{% static 'images/inv06.png' %}" alt="">Multi-site inventory tracking</li>
+
+			</h3>
+			</ol><br><br>
+
+		</div>
+	</section>
+
+	<section id="inventory">
+		<h2 class="title">Inventory Management System </h2>
+		<div class="section-content">
+			<li><img src="{% static 'images/inv07.png' %}"></li>
+			<div class="container">
+				<div class="row">
+
+							<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw01.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Tracking throughout Single Campus or Multiple Campuses.</p></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw02.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Reduced Time to Receive and Issue Out Education Inventory</p></div>
+									</div>
+								</div>
+
+							</div>
+							<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw03.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Track All Stock Received at Your University.</p></div>
+									</div>
+								</div>
+
+							</div>
+							<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw04.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Receive Using Unit Of Measure (UOM) Multiplier.</p></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw05.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Issue Against Sales Order (SO) or Without SO.</p></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw06.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Maintain Standard Inventory Cost.</p></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw07.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Maintain Supplier Information.</p></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw08.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Mobile Inventory Management with Barcode Scanning.</p></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw09.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Receive to a Default Location or a Barcode-Scanned Location.</p></div>
+									</div>
+								</div>
+							</div>
+						</div>
+				<br>
+				<div class="container">
+				<div class="row">
+
+								<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw10.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Receive Using Purchase Order (PO) or Without PO.</p></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw11.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Automatic Reorder Quantity.</p></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw12.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Provides Global and Local Stock Levels.</p></div>
+									</div>
+								</div>
+							</div><br>
+							<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw13.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Supports Random and Dedicated Put away.</p></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw01.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Categorize Raw Materials, WIP, Finished Goods.</p></div>
+									</div>
+								</div>
+							</div>
+				</div>
+			</div>
+		   <br><br>
+
+		</div>
+	</section>
+	<section id="advanced">
+		<div class="features">
+			<h4 class="twenty"></h4>
+			<ul>
+			</ul>
+		</div>
+		<h2 class="title">University and Colleges Inventory Tracking Features</h2>
+		<div class="section-content">
+			<ol><h3>
+		    <li>Our Inventory System for the education industry, a barcode-based system, offers the ability to manage all types of inventory. Standard, serialized,
+			batch–lot, serialized with quantity, and non-inventories can be managed all in one system. </li>
+
+
+			</h3>
+			</ol><br><br>
+         <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat text-left mb-50">
+                            <div class="cat-icon">
+                                <span class="flaticon-result"></span>
+                                <h4><a href="services.html">Standard Education Inventory</a></h4>
+
+                            </div>
+                            <div class="cat-cap">
+                                <img src="{% static 'images/INW20.png' %}" alt="Image" height="300" width="300">
+                                <h5><a href="services.html"><strong>Powerful Inventory System for Education</strong></a></h5>
+                                <p></p>
+								<p></p>
+								<p> The powerful Inventory System for Education defines standard inventory items like
+									ink cartridges and printing paper by a stock number and tracks by location, number,
+									and quantity. The same stock number can be used at multiple schools, colleges, and
+									university locations.</p>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat text-left mb-50">
+                            <div class="cat-icon">
+                                <span class="flaticon-result"></span>
+                                <h4><a href="services.html">Serialized Education Inventory</a></h4>
+
+                            </div>
+                            <div class="cat-cap">
+                                <img src="{% static 'images/INW21.png' %}" alt="Image" height="300" width="300">
+                                <h5><a href="services.html"><strong>individually tagged items using an ID or serial number</strong></a></h5>
+                                <p></p>
+								<p></p>
+								<p>Inventory for schools, colleges, universities, and school districts are individually
+									tagged items using an ID or serial number. School and university course related
+									items like chemicals within chemistry labs, equipment, or medication vitals have
+									contents of each item that need to be quantified in serialized inventory.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat text-left mb-50">
+                            <div class="cat-icon">
+                                <span class="flaticon-result"></span>
+                                <h4><a href="services.html">Batch–lot Education Inventory</a></h4>
+
+                            </div>
+                            <div class="cat-cap">
+                                <img src="{% static 'images/INW22.png' %}" alt="Image" height="300" width="300">
+                                <h5><a href="services.html"><strong>Track inventory with expiration dates</strong></a></h5>
+                                <p></p>
+                                <p>Track inventory with expiration dates, such as food, medical supplies, chemistry lab chemicals, etc. Batch–lot inventory tracking also enables you to track date codes and lot codes associated with those items.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat text-left mb-50">
+                            <div class="cat-icon">
+                                <span class="flaticon-result"></span>
+                                <h4><a href="services.html">Serialized with Quantity</a></h4>
+
+                            </div>
+                            <div class="cat-cap">
+                                <img src="{% static 'images/INW23.PNG' %}" alt="Image" height="300" width="300">
+                                <h5><a href="services.html"><strong>Quantity that will be consumed</strong></a></h5>
+                                <p></p>
+                                <p>Quantity that will be consumed or used while in inventory, such as medication bottles with pills, chemical drums with contents that get used, rolls of paper/pulp/textiles with the material being used up over time.</p>
+                            </div>
+                        </div>
+                    </div>
+
+					<div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat text-left mb-50">
+                            <div class="cat-icon">
+                                <span class="flaticon-result"></span>
+                                <h4><a href="services.html">Non-Inventory Education Items</a></h4>
+
+                            </div>
+                            <div class="cat-cap">
+                                <img src="{% static 'images/INW24.PNG' %}" alt="Image" height="300" width="300">
+                                <h5><a href="services.html"><strong>Track anything </strong></a></h5>
+                                <p></p>
+                                <p>Education facilities can now track anything that would be issued out, but not received. For example, using the education Inventory System you can track and issue man-hours and currency.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+         </div>
+
+
+
+
+		</div>
+	</section>
+		<section id="asset">
+		<div class="features">
+			<h4 class="twenty"></h4>
+			<ul>
+			</ul>
+		</div>
+		<h2 class="title">Advanced Asset Tracking for Education</h2>
+		<div class="section-content">
+			<ol><h3>
+				<li></li>
+				<li>Commonly tracked assets in the education industry range from audio/video equipment, computers, and
+					tablet PCs, to important documents. Tracking assets helps schools, colleges, and universities save
+					money by increasing accountability and eliminating lost or misplaced assets.
+				</li>
+
+
+			</h3>
+			</ol><br><br>
+         <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat text-left mb-50">
+                            <div class="cat-icon">
+                                <span class="flaticon-result"></span>
+                                <h4><a href="services.html"></a></h4>
+
+                            </div>
+                            <div class="cat-cap">
+                                <img src="{% static 'images/INW30.png' %}" alt="Image" height="300" width="300">
+                                <h5><a href="services.html"><strong>Audio/ Video Equipment</strong></a></h5>
+                                <p></p>
+								<p></p>
+								<p></p>
+								<p>Keep an audit trail of who had an item for every time it was moved via barcode
+									scanning, providing immediate access to the Education asset location, or checking
+									out-in equipment to certain individuals using the robust Education Asset Tracking
+									System.</p>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat text-left mb-50">
+                            <div class="cat-icon">
+                                <span class="flaticon-result"></span>
+                                <h4><a href="services.html"></a></h4>
+
+                            </div>
+                            <div class="cat-cap">
+                                <img src="{% static 'images/INW31.png' %}" alt="Image" height="300" width="300">
+ 								<h5><a href="services.html"><strong>School equipment & Furniture Tracking</strong></a></h5>
+								<p>Configure the Education Asset Tracking System to track educational equipment used in
+									all classrooms such as microscopes, utensils and tools by renaming asset data
+									fields, assigning asset categories and attaching documents and pictures.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat text-left mb-50">
+                            <div class="cat-icon">
+                                <span class="flaticon-result"></span>
+                                <h4><a href="services.html"></a></h4>
+
+                            </div>
+                            <div class="cat-cap">
+                                <img src="{% static 'images/INW32.png' %}" alt="Image" height="300" width="300">
+                                <h5><a href="services.html"><strong>IT Asset Tracking</strong></a></h5>
+								<p></p>
+								<p>Identify and track all high- valued Educational IT assets using serial numbers, model
+									numbers and asset numbers. Also, schedule asset maintenance and calibrated events to
+									eliminate and prevent missed maintenance schedules. Track IT assets in all locations
+									and departments of Colleges, Districts, and Universities.</p>
+							</div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat text-left mb-50">
+                            <div class="cat-icon">
+                                <span class="flaticon-result"></span>
+                                <h4><a href="services.html"></a></h4>
+
+                            </div>
+                            <div class="cat-cap">
+                                <img src="{% static 'images/INW33.PNG' %}" alt="Image" height="300" width="300">
+                                <h5><a href="services.html"><strong>Document Tracking</strong></a></h5>
+                                <p></p>
+								<p></p>
+								<p>Track any documents such as delivery receipts, stored documents, medical records,
+									financial records or legal records to increase the education branche with immediate
+									access to important files.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+         </div>
+
+
+
+
+		</div>
+	</section>
+	<section id="assetf">
+		<br><br>
+		<h2 class="title">Asset Management Features for Colleges, Universities, Schools, and Districts </h2><br><br><br>
+		<div class="section-content">
+
+			<div class="container">
+				<div class="row">
+							<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw40.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Track educational Assets by Barcode Location.</p></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw41.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Track whether an asset is active or inactive.</p></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw42.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Track Serial and Model Number by Barcode Scanning.</p></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw43.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Enable Asset data field renaming.</p></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw44.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Enable addition of new Education Asset items in the field</p></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw45.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Assign Equipment Categories by College or University.</p></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw46.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Conduct standard reports for depreciation</p></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw46.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Export and import Asset data via PDF, Excel, Word, HTML, etc.</p></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw48.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Maintain equipment cost records.</p></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw49.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Generate configurable Education Asset reports.</p></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw51.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Schedule asset maintenance.</p></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 intro_col">
+								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
+									<div class="intro_icon"><img src="{% static 'images/inw52.png' %}" alt=""></div>
+									<div class="intro_content">
+										<div class="intro_title"><a href="slider"></a></div>
+										<div class="intro_subtitle"><p>Schedule transfers to other locations.</p></div>
+									</div>
+								</div>
+							</div>
+			</div>
+		</div>
+		</div>
+			<br><br><br><br><br>
+	</section>
+
+		<section id="cloud">
+		<div class="features">
+			<h2 class="twenty">The Cloud-Based Solution for Asset and Inventory Tracking</h2>
+			</div>
+		<div class="section-content">
+			<ol><br>
+				<p>The Cloud-Based Asset Tracking and Inventory System can be adjusted to fit the particular needs of
+					organizations of any size. Our Cloud-Based Asset Tracking and Inventory System provides continuous
+					visibility and accessibility from any device using a Web Browser and Internet connection worldwide.
+					The powerful all-in-one Cloud-Based system, combines barcode scanners, real-time reporting, the
+					ability to track asset and stock items anytime anywhere.</p>
+
+			</ol><br><br>
+
+			<div >
+					<div >
+						<h1>Option 1: Cloud-Based - Software as a Service</h1>
+						<div class="intro_icon"><img src="{% static 'images/inp01.png' %}" alt=""></div>
+						<div>
+						<p>The client can use ASAP Systems’ environment, provided as Software as a Service and
+							operational on desktops, mobile devices, and tablets.</p>
+						</div>
+					</div>
+					<div ><br><br><br>
+						<h1>Option 2: Cloud-Based Dedicated Environment</h1>
+						<div class="intro_icon"><img src="{% static 'images/inp02.png' %}" alt=""></div>
+						<div>
+							<p>The database is available on a dedicated server hosted by ASAP Systems specifically for
+								you and accessible via the internet. Each dedicated environment contains a production
+								instance and a sandbox instance which is used for testing. Both environments are
+								accessible on desktops/PCs, mobile devices and tablets.</p>
+						</div>
+					</div>
+					<div ><br><br><br>
+						<h1>Option 3: Self Hosted Environment</h1>
+						<div class="intro_icon"><img src="{% static 'images/inp03.png' %}" alt=""></div>
+						<div>
+							<p></p>
+							<p> The databases (for production and sandbox) will be hosted on one of ASAP Systems’ shared
+								servers, and the application will be hosted on a dedicated server. The production and
+								sandbox instances are accessible through desktop/PCs, mobile devices, and tablets.</p>
+						</div>
+					</div>
+
+
+		</div>
+		</div>
+	</section>
+
+	<section id="hardware">
+		<div class="features">
+			<h2 class="twenty">Mobile Barcode Scanners</h2>
+			</div>
+		<div class="section-content">
+			<ol><br>
+				<p></p>
+				<p> A generation leaps forward in ease of use, operating efficiencies and accurate transactions. Our
+					Mobile App offers graphical menu choices and logical, configurable data collection fields plus quick
+					and easy scanning and data entry via keypad or stylus. Our mobile app runs on these commercial,
+					off-the-shelf hand-held mobile barcode scanners:</p>
+				<div class="intro_icon"><img src="{% static 'images/hard01.png' %}" alt="">
+					<ol><li>Rugged Mobile Computers</li>
+						<li>Unitech PA692</li>
+						<li>Withstands 5 ft. drop to concrete</li>
+						<li>Scans 1D & 2D Barcodes</li>
+						<li>Bluetooth, Wifi, GPS, 3.75G Connectivity</li>
+						<li>3.8in. LCD Display</li></ol></div>
+			</ol><br><br>
+
+			<div >
+					<div >
+						<h1>Wireless Barcode Scanners</h1>
+						<div class="intro_icon"><img src="{% static 'images/hard02.png' %}" Motorola LI4278 alt=""></div>
+						<div>
+						<p>GENERAL USE -- Motorola LI4278</p>
+						</div>
+					</div>
+					<div ><br><br><br>
+						<h1>Barcode Printers</h1>
+						<div class="intro_icon"><img src="{% static 'images/hard03.png' %}" alt=""></div>
+						<div>
+							<p>Zebra ZD420t</p>
+							<p>Experience the convenience of built-in barcode label printing— no external label design
+								software is needed. Our Powerful Inventory and Asset Tracking System supports a variety
+								of printers from world-class supplier Zebra Technologies.</p>
+						</div>
+					</div>
+					<div ><br><br><br>
+						<h1>Biometric Devices Signature Capture Pads</h1>
+						<div class="intro_icon"><img src="{% static 'images/hard04.png' %}" alt=""></div>
+						<div>
+							<p></p>
+							<p>Our top-rated system supports a variety of biometric devices from world-class suppliers
+								such as Topaz. Easily integrate the biometric device into your system so it functions as
+								an extension of our System.</p>
+							<p> </p>
+						</div>
+					</div>
+
+
+		</div>
+	</section>
+
+
 	<section id="installation">
 
-		<h2 class="title">Installation Procedure</h2>
+		<h2 class="title">Purchase Order </h2>
 		<div class="section-content">
+			<img src="{% static 'images/po.png' %}" alt="">
 			<ol>
-			<li>1]The authorized DSoft representative will visit the subscriber's premises to carry-out service demo.</li>
-			<li>2]The subscriber is required to pay ‘Subscription Amount’ as mentioned in the plan details on
-				installation post the service demo at the installation location to the authorized
-				DSoft installation representative only. </li>
-			<li>3]The authorized DSoft installation representative will carry a DSoft ID card.
-				The subscriber can ask the DSoft representative for valid Government ID
-				like PAN card or driving license to verify his identification.</li>
-			<li>4]DSoft will not be responsible for any payment made by the subscriber to an
-				unauthorized person claiming to be a DSoft representative.</li>
-			<li>5]Service installation will be done within 3 working days from
-			the date of realisation of subscription amount. </li>
-			<li>In case of cheque payment, service installation shall take 6-10 working days from
-				the cheque’s submission date.</li>
-			<li> 6]Post successful installation,
-				the DSoft representative will provide Subscriber Registration Form (SRF),
-				which needs to be filled with complete and correct information. </li>
-			<p>The following documents need to be submitted along with the SRF (if not submitted on website).:-</p>
-			<p>>>>>Valid Proof of Identity (self-attested A4 size photocopy) </p>
-			<p>>>>>Valid Proof of Address (self-attested A4 size photocopy)</p>
-			<p>>>>>>One passport size color photograph</p>
-			<li>6]The subscriber will receive a User ID on his/her registered Email ID
-				and registered mobile number. After the completion of installation,
-				DSoft representative will assist the subscriber in generating the DSoft
-				password through DSoft service login page. </li>
-			<li>7]Do not share your User ID and Password with anyone, including DSoft representatives.</li>
+			<li>1]Purchase order generated for the required material.</li>
+			<li>2]The system can automatically generate the order based on the last 10 month average material requirements.
+				 </li>
+			<li>3]The system can generate automatic orders based on the minimum level and minimum order quantity.</li>
+			<li>4]MIS report - Date  range wise - Vendor wise - Pending Orders - Cast center wise order</li>
+
 			</ol>
 		</div>
 	</section>
 	<section id="tmpl-structure">
-		<h2 class="title">Service Support</h2>
+		<h2 class="title">GRR-Goods Received Reports</h2>
 		<p class="fifteen"></p>
 		<div>
+			<img src="{% static 'images/grr.png' %}" alt="">
 			<ol>
-			<li>The subscriber may contact DSoft Care @+91-75882-91810 or using landline @020-27800000.</li>
-				<p></p>
-			<li>Place a service request via My DSoft App or write to tushardsoft@gmail.com for the following services:-<li>
-			<li>>>>  Information pertaining to service, billing, tariff plan, etc.</li>
-			<li>>>>  Complaint registration, in case the subscriber has issue/s with the service </li>
-			<li>>>>  Change of tariff plan, billing address, mobile number or Email ID.</li>
+							<p></p>
+			<li>GRR- Goods Received at your locations.  <li>
+			<li>Linked with Purchase Order and cost center wise indent note</li>
+			<li>System generate excess order / pending order qty. </li>
+			<li>System also generates statements for material ordered without purchase order.</li>
 			<br>
-			<li>When a request or complaint is placed at DSoft Care,
-				a reference number is provided to the subscriber <li>
-			<li> in order to track the status of the service request/complaint.<li>
-			<br>
-			<li> The subscriber needs to always mention the reference number in all future interactions with
-			DSoft Care to enable better service support. <li>
-			<br>
-			<li>Subscribers registered can get live status of the service and complaints request on Notification Tab of
-			My DSoft App. My DSoft App is your extended customer support which enables you to
-			register any service or network connection issues in real time.<li>
-			<br><br><li>For technical queries/complaints regarding your connection, subscriber can directly contact
-			the tech support: 020-27800000 (pre fix local standard codes, standard call rates applicable).	</li>
-			</ol>
+			<li>System will add the quantity received in the inventory. <li>
+		</ol>
 
 		</div>
 		<pre class="brush: html">
@@ -141,27 +749,17 @@
 		</pre>
 	</section>
 	<section id="css-structure">
-		<h2 class="title">Bills And Payments</h2>
-		<p class="fifteen"> <strong>****</strong>.</p>
+		<h2 class="title">Counter Goods Sales</h2>
+		<p class="fifteen"> <strong>Cost Center Wise Sales</strong>.</p>
+			<img src="{% static 'images/counter.png' %}" alt="">
 		<li>
 			<p class="fifteen">
-		<li>DSoft Service bill delivery is done as per the option registered by the subscriber:</li>
-		<br><li>eCopy:- Only e-bill shall be sent to the registered Email ID.</li>
-		<br><li> Physical copy: The physical bill shall be sent to the registered billing address.</li>
-		<br><li>Additionally, e-bill shall be sent to the registered Email ID. </li>
-		<br><li>Kindly ensure that bills are paid on time to enjoy seamless service.</li>
-		<br><li>The Service Bill can be paid in 4 convenient ways:- </li>
-		<li>1. My DSoft App - helps you to make payments for your account on the go </li>
-		<li>2. Online Payment - Net Banking or Credit/Debit Card <li>
-		<li>3. Cash Payment </li>
-		<li>4. Cheque / Demand Draft <li>
-		<br><li>In case a subscriber has paid the Service bill
-			through Cheque/Demand Draft without mentioning 10 Digit User ID/ Service ID/ Billing
-			Account Number (BAN) on it, the amount will not get credited to the respective subscriber
-			account. </li>
-		<br><li>For payment verification, please contact DSoft Care @ 020-27800000 and provide your cheque number, User ID, Service ID, BAN, details of cheque drop box, details of collection executive, if cheque is collected.
-			</p>
-		</brli>
+		<li>Distribution of goods purchased to required departments / personels .</li>
+		<br><li>The user will enter the cost center name / department name / HOD name in the customer field. </li>
+		<br><li> The system will generate counter sale note which will be signed by the concerned department.</li>
+		<br><li>MIS Report - Department wise consumption with date range option.</li>
+		<br><li>MIS - Item wise consumption report.</li>
+
 		<pre class="brush: html">
 		
 		<!-- CSS here -->
@@ -181,81 +779,6 @@
 		</pre>
 
 	</section>
-	<section id="javascript">
-		<h2 class="title">Service Ordering</h2>
-		<p class="fifteen">Procedure for ordering sevice enginer visit to your permises. <strong></strong>.
-			<p class="fifteen">
-			<li>Subscription to DSoft Internet Lifestyle can be made by the following methods:- <li>
-			<br><li>Send an Email: stushardsoft@gmail.com </li>
-			<br><li>Fill an Online Contact Form on our website.</li>
-			<br><li>No subscription amount to be paid to DSoft Sales Executive at the time of placing an order.</li>
-			</p><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	</section>
-	<section id="contact-form">
-			<h2 class="title"> Refer A Friend </h2>
-			<p>
-				<li>A Rs. 300 rebate for you and Rs. 200 for your friend.<li>
-                <li>Dsoft now brings to you a unique Programme - Refer A Friend.</li>
-		     	 <li>It helps your friend also benefit from the speed, security, service and savings you enjoy
-		      		 with your DSoft connection.</li>
-				<li>As a token of Appreciation, you will get Rs.300 off on your bill and Rs.200 off on your friend’s bill.</li>
-				<br><li>What needs to be done?</li>
-        		<li>Refer a friend from your building to us by filling the form.</li>
-				<li>Ensure that your User Name is dully filled in
-				We will do a demo of our service at their home and post their subscription, we will activate the discount scheme for you.
-				</li><br><li>What's in it for you?</li>
-				A rebate of Rs.300 adjusted at the rate of Rs.100 per month against your subsequent bill payments post successful activation of service at your friend's premises and realization of subscription amount paid along with the Subscriber Registration Form. You can refer all of your friends and receive a maximum rebate of Rs.300 on your monthly broadband bill.
-				<br></br>What’s in it for your friends?<br>
-				</l><li>A rebate of Rs.200 adjusted at the rate of Rs.100 per month against your subsequent bill payments post successful activation of service.
-				Offer applicable from 1st Oct 2018.
-				In the unlikely event where the discount does not reflect in your bill,
-				please call DSoft Customer Care.
-				</li>
-				<br><li>Terms and Conditions:</li>
-				<li>The referral reward will be provided only as long as the referee account is Active.| The reward rebates will begin from the subsequent bill cycle after the referee’s account has been successfully activated. | Maximum of Rs.100 out of Rs.300 per referral can be availed by referrer in any given month. | Maximum of Rs.100 out of Rs.200 per referral can be availed by referee in any given month. | Maximum of Rs.300 can be availed in one month. | In case customer is eligible for referral benefit of more than 3 customers, the same will be passed on from fourth month onwards.
-				</li>
-	</section>
-
-	<section id="video">
-		<h2 class="title"> Videos </h2>
-		<div class="script-source">
-				<div class="embed-responsive embed-responsive-21by9">
-					{% for i in obj %}
-					{% video i.video %}
-					{%  endfor %}
-				</div>
-		</div>
-	</section>
-	<section id="disclaimer">
-			<h2 class="title"> Disclaimer </h2>
-			<h4 class="title"> Disclaimer For DSoft </h4>
-			<p>
-				<li>If you require any more information or have any questions about our site’s disclaimer,
-					please feel free to contact us by email.</li>
-				<li>Disclaimers for https://dsoft.herokuapp.com/</li>
-				<br><li>All the information on this website is published in good faith and for general information
-					purpose only and taken from Official DSoft Website, media News of DSoft, DSoft Social Media,
-					and personal usage and experience of DSoft products.</li>
-		        <li>DSoft.com does not make any warranties about the completeness, reliability, and accuracy of this
-					information. Any action you take upon the information you find on this website
-					(https://dsoft.herokuapp.com/), is strictly at your own risk.</li>
-		        <br><li>dsoft.herokuapp.com will not be liable for any losses and/or damages in connection with the
-					use of our website. </li>
-                <li>From our website, you can visit other websites by following hyperlinks to such external sites.</li>
-				<br><li> While we strive to provide only quality links to useful and ethical websites,
-					we have no control over the content and nature of these sites. <li>
-		        <li>These links to other websites do not imply a recommendation for all the content found on these sites.
-		Site owners and content may change without notice and may occur before we have the opportunity
-		to remove a link that may have gone ‘bad’.</li>
-                <li>Please be also aware that when you leave our website,
-					other sites may have different privacy policies and terms which are beyond our control. </li>
-		       <li>Please be sure to check the Privacy Policies of these sites as well as their
-				   “Terms of Service” before engaging in any business or uploading any information.</li>
-		<br><li>>Consent</li>
-				<li>By using our website, you hereby consent to our disclaimer and agree to its terms.</li>
-
-			</p>
- 	</section>
 
 </div>
 </div>
