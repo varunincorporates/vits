@@ -18,3 +18,6 @@ def contact(request):
 
 def document(request):
     return render(request, "document.html", {})
+
+def ecommerce(request):
+    return render(request, "ecommerce.html", {})
