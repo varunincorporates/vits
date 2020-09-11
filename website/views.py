@@ -25,3 +25,6 @@ def ecommerce(request):
 def document1(request):
     return render(request, "document1.html", {})
 
+def document2(request):
+    return render(request, "document2.html", {})
+

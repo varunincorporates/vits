@@ -9,5 +9,6 @@ urlpatterns = [
    path('contact', views.contact, name="contact"),
    path('document', views.document, name="document"),
    path('document1', views.document1, name="document1"),
+   path('document2', views.document2, name="document2"),
    path('ecommerce', views.ecommerce, name="ecommerce"),
 ]
